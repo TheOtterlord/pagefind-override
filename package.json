@@ -1,0 +1,20 @@
+{
+  "name": "pagefind-override",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro check && astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/check": "^0.5.4",
+    "@astrojs/starlight": "^0.18.1",
+    "@pagefind/default-ui": "^1.0.4",
+    "astro": "^4.3.4",
+    "sharp": "^0.32.5",
+    "typescript": "^5.3.3"
+  }
+}
